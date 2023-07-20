@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    html{
+        height: 100%;
+    }
+    @font-face {
+        font-family: myfonts;
+        src: url(Lilita_One/LilitaOne-Regular.ttf);
+    }
+    body{
+        background:linear-gradient(to bottom,black,red);
+        /* background-repeat: repeat; */
+        /* background-size: cover; */
+        color: white;
+        font-family: myfonts;
+       
+    }
+    .left{
+        /* border: 1px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: -6px;
+        text-align: center;
+        width: 300px;
+        height: 100px;
+
+
+    }
+    .left img{
+        width: 70px;
+        height: 62px;
+        filter: invert(100%);
+    }
+    .middle{
+        /* border: 1px solid red; */
+        /* position: absolute; */
+        display: block;
+        width: 40%;
+        /* margin: 10px ; */
+        /* margin-left: 724px; */
+        margin: 20px auto;
+        text-align: center;
+        
+        
+        
+    }
+   
+    .middle ul li{
+        display: inline-block;
+        /* float: left; */
+        /* margin-left:15px ; */
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 25px;
+        text-align: center;
+       
+
+    }
+    .middle li a{
+        text-decoration: none;
+        display: block;
+        color: white;
+        width: 150px;
+        height: 50px;
+       
+    }
+    .middle ul li :hover {
+        font-size: 30px;
+        text-decoration-line: underline;
+        color: gray;
+
+    }
+    .middle  li a.active{
+        text-decoration: underline;
+        color: gray;
+        
+    }
+    .right{
+        /* border: 1px solid red; */
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 22px;
+        padding: 10px
+        
+    }
+    .right input{
+     margin-right: 10px;
+     padding: 7px;
+     border: 0px;
+     border-radius: 15px;
+     font-family: myfonts;
+    }
+    #bun{
+        border-radius: 15px;
+    }
+    #bun:hover{
+        cursor: pointer;
+    }
+    section{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        margin-top: 10%;
+
+    }
+    .box{
+        height: 550px;
+        width: 550px;
+        border: 1px solid greenyellow;
+        border-radius: 20px;
+      
+    }
+    .box h1{
+        text-align: center;
+        padding: 10px ;
+    }
+    .box p{
+        text-align: justify;
+        padding: 10px 25px;
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img src="g.jpeg">
+       <p>GAWADE'S FITNES</p> 
+     </div>
+     <div class="middle">
+         <ul>
+             <li><a href="css project 1.html" >HOME</a></li>
+             <li><a href="about.html" >ABOUT</a></li>
+             <li><a href="services.html" class="active">SERVICES</a></li>
+             <li><a href="css project 1.html">TYPES</a></li>
+             
+             
+         </ul>
+ 
+     </div>
+     <div class="right">
+         <input type="text" placeholder="SEARCH HERE">
+         <input type="submit" value="Search" id="bun">
+ 
+     </div>
+     <section>
+        <div class="box">
+            <h1>Gym</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, neque! Mollitia, facere. Ullam accusamus minima suscipit amet enim! Quod delectus eos porro laboriosam hic cupiditate ex exercitationem, quia corrupti accusantium autem dolore expedita cum ab ducimus a provident eaque deleniti dignissimos atque. Minima modi incidunt explicabo provident, enim soluta dicta ducimus consequuntur animi temporibus? Sint, et vel doloribus mollitia voluptatum nobis quis odit magnam. Nobis harum officia laboriosam. Optio vero ex quam esse necessitatibus dolorem commodi unde voluptatem deleniti eligendi explicabo corporis est eius sint aliquid maxime doloribus sunt, vel voluptatum quasi odio inventore sed sequi. Quos accusamus mollitia explicabo enim eveniet praesentium voluptatibus reiciendis, porro atque ipsum, magnam doloribus quae ut, eius inventore officia recusandae quod? Delectus assumenda eius corrupti cum officiis tempora beatae repellendus? Neque cupiditate saepe incidunt aut, natus eos aspernatur expedita, corporis porro consequuntur iste magnam? Velit tempora laudantium architecto cum ipsa. Alias quaerat debitis pariatur.</p>
+
+        </div>
+        <div class="box">
+            <h1>Calisthenics</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, neque! Mollitia, facere. Ullam accusamus minima suscipit amet enim! Quod delectus eos porro laboriosam hic cupiditate ex exercitationem, quia corrupti accusantium autem dolore expedita cum ab ducimus a provident eaque deleniti dignissimos atque. Minima modi incidunt explicabo provident, enim soluta dicta ducimus consequuntur animi temporibus? Sint, et vel doloribus mollitia voluptatum nobis quis odit magnam. Nobis harum officia laboriosam. Optio vero ex quam esse necessitatibus dolorem commodi unde voluptatem deleniti eligendi explicabo corporis est eius sint aliquid maxime doloribus sunt, vel voluptatum quasi odio inventore sed sequi. Quos accusamus mollitia explicabo enim eveniet praesentium voluptatibus reiciendis, porro atque ipsum, magnam doloribus quae ut, eius inventore officia recusandae quod? Delectus assumenda eius corrupti cum officiis tempora beatae repellendus? Neque cupiditate saepe incidunt aut, natus eos aspernatur expedita, corporis porro consequuntur iste magnam? Velit tempora laudantium architecto cum ipsa. Alias quaerat debitis pariatur.</p>
+        </div>
+        <div class="box">
+            <h1>Cardio</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, neque! Mollitia, facere. Ullam accusamus minima suscipit amet enim! Quod delectus eos porro laboriosam hic cupiditate ex exercitationem, quia corrupti accusantium autem dolore expedita cum ab ducimus a provident eaque deleniti dignissimos atque. Minima modi incidunt explicabo provident, enim soluta dicta ducimus consequuntur animi temporibus? Sint, et vel doloribus mollitia voluptatum nobis quis odit magnam. Nobis harum officia laboriosam. Optio vero ex quam esse necessitatibus dolorem commodi unde voluptatem deleniti eligendi explicabo corporis est eius sint aliquid maxime doloribus sunt, vel voluptatum quasi odio inventore sed sequi. Quos accusamus mollitia explicabo enim eveniet praesentium voluptatibus reiciendis, porro atque ipsum, magnam doloribus quae ut, eius inventore officia recusandae quod? Delectus assumenda eius corrupti cum officiis tempora beatae repellendus? Neque cupiditate saepe incidunt aut, natus eos aspernatur expedita, corporis porro consequuntur iste magnam? Velit tempora laudantium architecto cum ipsa. Alias quaerat debitis pariatur.</p>
+        </div>
+     </section>
+</body>
+</html>

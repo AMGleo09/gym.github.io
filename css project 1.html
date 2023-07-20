@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM REGISTRATION</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    @font-face {
+        font-family: myfonts;
+        src: url(Lilita_One/LilitaOne-Regular.ttf);
+    }
+    body{
+        background: url(gym.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        color: white;
+        font-family: myfonts;
+    }
+    .left{
+        /* border: 1px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: -6px;
+        text-align: center;
+        width: 300px;
+        height: 100px;
+
+
+    }
+    .left img{
+        width: 70px;
+        height: 62px;
+        filter: invert(100%);
+    }
+    .middle{
+        /* border: 1px solid red; */
+        /* position: absolute; */
+        display: block;
+        width: 40%;
+        /* margin: 10px ; */
+        /* margin-left: 724px; */
+        margin: 20px auto;
+        text-align: center;
+        
+        
+        
+    }
+   
+    .middle ul li{
+        display: inline-block;
+        /* float: left; */
+        /* margin-left:15px ; */
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 25px;
+        text-align: center;
+       
+
+    }
+    .middle li a{
+        text-decoration: none;
+        display: block;
+        color: white;
+        width: 150px;
+        height: 50px;
+       
+    }
+    .middle ul li :hover {
+        font-size: 30px;
+        text-decoration-line: underline;
+        color: gray;
+
+    }
+    .middle  li a.active{
+        text-decoration: underline;
+        color: gray;
+        
+    }
+    .right{
+        /* border: 1px solid red; */
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 22px;
+        padding: 10px
+        
+    }
+    .right input{
+     margin-right: 10px;
+     padding: 7px;
+     border: 0px;
+     border-radius: 15px;
+     font-family: myfonts;
+    }
+    #bun{
+        border-radius: 15px;
+    }
+    #bun:hover{
+        cursor: pointer;
+    }
+    .container{
+        border: 1px solid white;
+    width: 30%;
+    height: 670px;
+    margin-top: 57px;
+    margin-left: 93px;
+    text-align: center;
+    border-radius: 15px;
+
+        
+    }
+    .container form{
+        /* border: 1px solid white; */
+        border: none;
+        
+    }
+    .container h1{
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+    .container input{
+        font-family: myfonts;
+        width: 90%;
+        padding: 15px;
+        background: grey;
+        font-size: 20px;
+    }
+    .container input:hover{
+        cursor: pointer;
+    }
+    .container input::placeholder{
+        color: white;
+        font-size: 20px;
+    }
+    .form-group{
+        padding: 12px;
+        
+    }
+    #but{
+        width: 150px;
+        border-radius: 25px;
+        background-color: red;
+        color: white;
+        border: none;
+        margin-top: 30px;
+    }
+    #but:hover{
+        cursor: pointer;
+    }
+
+
+</style>
+<body>
+    <div class="left">
+       <img src="g.jpeg">
+      <p>GAWADE'S FITNES</p> 
+    </div>
+    <div class="middle">
+        <ul>
+            <li><a href="css project 1.html" class="active" >HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html" >SERVICES</a></li>
+            <li><a href="css project 1.html">TYPES</a></li>
+            
+            
+        </ul>
+
+    </div>
+    <div class="right">
+        <input type="text" placeholder="SEARCH HERE">
+        <input type="submit" value="Search" id="bun">
+
+    </div>
+    <div class="container">
+        <form action=".php">
+            <h1>JOIN THE BEST GYM IN MUMBAI</h1>
+            <div class="form-group">
+            <input type="text" placeholder="ENTER YOUR NAME" >
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="ENTER YOUR AGE" >
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="ENTER YOUR GENDER" >
+          </div>
+
+          <div class="form-group">
+            <input type="text" placeholder="ENTER YOUR ADDRESS" >
+           </div>
+            <div class="form-group">
+            <input type="email" placeholder="ENTER YOUR EMAIL ADDRESS" >
+          </div>
+            <div class="form-group">
+            <input type="text" placeholder="ENTER YOUR MOBILE NUMBER" >
+           </div>
+           
+                 <input type="button" value="submit" id="but">
+         
+        </form>
+    </div>
+</body>
+</html>
