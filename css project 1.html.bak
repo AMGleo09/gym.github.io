@@ -164,10 +164,10 @@
     </div>
     <div class="middle">
         <ul>
-            <li><a href="index.html" class="active" >HOME</a></li>
+            <li><a href="css project 1.html" class="active" >HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="services.html" >SERVICES</a></li>
-            <li><a href="index.html">TYPES</a></li>
+            <li><a href="css project 1.html">TYPES</a></li>
             
             
         </ul>
